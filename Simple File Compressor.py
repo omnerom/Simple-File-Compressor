@@ -122,6 +122,7 @@ def update_resolution_dropdown(input_path, resolution_var):
 root = tk.Tk()
 root.title("Simple Video Compressor")
 root.geometry("600x350")
+root.iconbitmap('fishbot-file-compressor.ico')
 
 input_label = tk.Label(root, text="Input File:")
 input_label.grid(row=0, column=0, padx=10, pady=10)
